@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+li 
+{
+    list-style: none;
+    
+}
+nav ul
+{
+   
+    
+    justify-content: flex-end;
+    align-items: flex-end; 
+    display: flex;
+   
+}
+nav .lienGoogle1
+{
+    text-decoration: none;
+    color: black;
+    padding: 9px 6px;
+
+}
+nav .lienGoogle1:hover
+{
+    text-decoration: underline;  
+}
+
+nav .lienGoogle2
+{
+    text-decoration: none ;
+    background: #1a73e8;
+    border: 1px solid #1a73e8;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    padding: 9px 23px;
+    margin-right: 8px;
+}
+
+nav .lienGoogle2:hover
+{
+    cursor: pointer;
+}
+
+.logoGoogle
+{
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.topnav
+{
+ 
+    justify-content: center;
+    align-items: flex-end; 
+    display: flex;
+}
+    
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex; 
+    border-radius: 5px;
+    
+}
+.button:hover
+{
+    cursor: pointer;
+}
+.chance
+{
+    margin-left: 2em;
+}
+
+.choixLangue
+{
+    justify-content: center;
+    display: flex;
+}
+.language
+{
+  
+    text-decoration: none;
+    color: blue;
+
+}
+.language:hover
+{
+    text-decoration: underline;
+}
+.feuille
+{
+    height: 14px;
+}
+
+.lienBas 
+{
+    text-decoration: none;
+    color: #70757a;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.lienBas:hover
+{
+    text-decoration: underline;  
+    
+}
+.lienBas1
+{
+    color: #70757a;
+}
+footer
+{
+    background-color: rgb(212, 209, 209);
+    color: #70757a;
+    
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
